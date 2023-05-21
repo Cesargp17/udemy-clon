@@ -16,7 +16,7 @@ export const AuthLayout = ({ children }) => {
             <Navbar isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen}/>
         </nav>
 
-        <main className={`${ isMenuOpen ? 'inset-0 bg-black bg-opacity-50' : 'bg-[#FFFFFF]' } lg:bg-[#FFFFFF] h-[600px] flex justify-center`}>
+        <main className={`${ isMenuOpen ? 'inset-0 bg-black bg-opacity-50' : 'bg-[#FFFFFF]' } lg:bg-[#FFFFFF] h-[700px] flex justify-center`}>
             { children }
         </main>
 
