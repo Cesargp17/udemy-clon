@@ -10,7 +10,7 @@ const RegisterPage = () => {
 
   return (
     <AuthLayout>
-      <div className='flex-col mt-16'>
+      <div className='flex-col'>
         <h2 className='font-bold mb-4'>Regístrate y comienza a aprender.</h2>
         <FormRegister/>
         <p className='text-xs text-center mt-4'>Al registrarte, aceptas nuestras <span className='underline cursor-pointer'>Condiciones de uso</span> y nuestra <br /> <span className='underline cursor-pointer'>Política de privacidad.</span></p>
