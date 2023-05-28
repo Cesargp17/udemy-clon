@@ -26,7 +26,7 @@ export const AuthProvider = ({ children }) => {
         setIsSending( true );
         const attributes = {
             email: email,
-            picture: 'https://www.pngall.com/wp-content/uploads/12/Avatar-PNG-Image.png',
+            picture: 'https://static.thenounproject.com/png/1743561-200.png',
             name: name
           };
 

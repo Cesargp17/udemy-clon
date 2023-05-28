@@ -7,7 +7,7 @@ export const SearchMobil = () => {
     
   return (
     <div>
-        <RiSearchLine onClick={ () => setIsSearchOpen( true ) } className='text-2xl cursor-pointer hover:text-indigo-800 lg:hidden'/>
+        <RiSearchLine onClick={ () => setIsSearchOpen( true ) } className='text-2xl cursor-pointer mr-2 hover:text-indigo-800 lg:hidden'/>
         <div className={`drop-shadow-lg ${ !isSearchOpen && 'hidden' } fixed flex lg:hidden z-10 w-full h-screen bg-white left-0 top-0 bottom-5 transition-all duration-300`}>
             <div className='relative w-full'>
                 <input 
