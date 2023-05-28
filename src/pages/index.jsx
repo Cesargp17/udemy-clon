@@ -1,8 +1,20 @@
-import React from 'react'
+import { AuthContext } from '@/context/AuthProvider'
+import React, { useContext } from 'react'
 
 const HomePage = () => {
+
+  const { user, isLoggedIn } = useContext(AuthContext);
+
   return (
-    <div>HomePage</div>
+    <div>
+      {
+        isLoggedIn
+        ? <div>
+          { user?.name } { user?.email }
+        </div>
+        : <h2>No autenticado</h2>
+      }
+    </div>
   )
 }
 

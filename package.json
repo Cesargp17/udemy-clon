@@ -14,6 +14,7 @@
     "autoprefixer": "10.4.14",
     "aws-amplify": "^5.2.4",
     "aws-sdk": "^2.1381.0",
+    "js-cookie": "^3.0.5",
     "next": "13.4.3",
     "postcss": "8.4.23",
     "react": "18.2.0",

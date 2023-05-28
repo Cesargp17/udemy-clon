@@ -26,7 +26,7 @@ const RegisterPage = () => {
         <div className='w-full sm:w-[350px] h-[0.2px] bg-gray-500 mt-4'/>
         <div className='text-center flex justify-center mt-4 text-sm'>
           <span>¿Ya tienes una cuenta?</span>&nbsp;
-          <Link className='underline text-indigo-800 font-bold' href='#'>Inicia sesión</Link>
+          <Link className='underline text-indigo-800 font-bold' href='/auth/login'>Inicia sesión</Link>
         </div>
       </div>
     </AuthLayout>

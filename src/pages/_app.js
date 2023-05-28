@@ -7,6 +7,7 @@ import { AuthProvider } from '@/context/AuthProvider';
 Amplify.configure(awsmobile);
 
 export default function App({ Component, pageProps }) {
+  
   return (
     <AuthProvider>
       <Component {...pageProps} />
